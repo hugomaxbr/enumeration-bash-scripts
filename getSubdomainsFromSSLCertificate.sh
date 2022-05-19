@@ -1,5 +1,12 @@
 #!/bin/sh
 
+#Pra rodar isso aqui tu deve instalar o jq e o shodan, coisa simples.
+#sudo apt install jq -y && sudo apt install python3-shodan
+#Obviamente você vai precisar do python3 pro shodan
+#Não esquece de dar chmod +x pro arquivo.
+#Se não rodar mesmo assim aí tu dá teus pulo que eu não tenho bola de cristal também né.
+
+
 blue=$(tput setaf 4)
 normal=$(tput sgr0)
 
